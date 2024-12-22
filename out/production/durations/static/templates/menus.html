@@ -1,0 +1,41 @@
+<div th:if="${session.user.type == 0}" class="fater-menu-vertical">
+    <div class="fater-menu-item">
+        <a href="/durations/">
+            <span class="fa fa-home"></span> 系统首页
+        </a>
+    </div>
+    <div class="fater-menu-item">
+        <a href="/durations/majors">
+            <span class="fa fa-cubes"></span> 专业信息管理
+        </a>
+    </div>
+    <div class="fater-menu-item">
+        <a href="/durations/users">
+            <span class="fa fa-user"></span> 系统用户管理
+        </a>
+    </div>
+    <div class="fater-menu-item">
+        <a href="/durations/students">
+            <span class="fa fa-address-card"></span> 学生信息管理
+        </a>
+    </div>
+    <div class="fater-menu-item">
+        <a href="/durations/durations">
+            <span class="fa fa-database"></span> 时长记录管理
+        </a>
+    </div>
+</div>
+
+<div th:if="${session.user.type == 1}" class="fater-menu-vertical">
+    <div class="fater-menu-item">
+        <a href="/durations/">
+            <span class="fa fa-home"></span> 系统首页
+        </a>
+    </div>
+    <div class="fater-menu-item">
+        <a href="/durations/durations/show">
+            <span class="fa fa-info-circle"></span> 时长信息查看
+        </a>
+    </div>
+    </div>
+</div>

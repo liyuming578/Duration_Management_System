@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:insert="~{templates/head.html}"></head>
+<body>
+<div th:insert="~{templates/nav.html}" class="fater-layout-header"></div>
+
+<div th:insert="~{templates/menus.html}" class="fater-layout-menus"></div>
+
+<div class="fater-layout-body">
+    <div style="height:750px;line-height:750px;text-align:center;font-size:28px;background-color: #fff;color:#cccccc">
+        <img class="currentImg" id="currentImg" onload="alog &amp;&amp; alog('speed.set', 'c_firstPageComplete', +new Date); alog.fire &amp;&amp; alog.fire('mark');" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fphoto.gdut.edu.cn%2F__local%2F6%2F82%2FD9%2F71D0E711E792537F33683A075B8_3038E8D2_467BD6.jpg&amp;refer=http%3A%2F%2Fphoto.gdut.edu.cn&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1643878287&amp;t=e07577e4fc056e4fd1d7fc1ef7ab6cf9" width="900" height="600" style="top: 53px; left: 0px; width: 900px; height: 600px; cursor: pointer;" log-rightclick="p=5.102">
+    </div>
+</div>
+
+<div class="fater-layout-foot" th:insert="~{templates/foot.html}"></div>
+
+<div th:insert="~{templates/commjs.html}"></div>
+</body>
+</html>

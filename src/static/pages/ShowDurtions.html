@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head th:insert="~{templates/head.html}"></head>
+<body>
+<div th:insert="~{templates/nav.html}" class="fater-layout-header"></div>
+
+<div th:insert="~{templates/menus.html}" class="fater-layout-menus"></div>
+
+<div class="fater-layout-body">
+
+    <div class="fater-panel">
+        <div class="fater-pannel-body">
+            <div id="tableShow">
+                <table class="fater-table">
+                    <tbody>
+                        <tr>
+                            <td>学生学号</td>
+                            <td th:text="${duration.id}"></td>
+                        </tr>
+                        <tr>
+                            <td>活动时长</td>
+                            <td th:text="${duration.active}"></td>
+                        </tr>
+                        <tr>
+                            <td>理想信念</td>
+                            <td th:text="${duration.ideal}"></td>
+                        </tr>
+                        <tr>
+                            <td>文体时长</td>
+                            <td th:text="${duration.recreation}"></td>
+                        </tr>
+                        <tr>
+                            <td>创新创业</td>
+                            <td th:text="${duration.innovate}"></td>
+                        </tr>
+                        <tr>
+                            <td>志愿时长</td>
+                            <td th:text="${duration.wish}"></td>
+                        </tr>
+                        <tr>
+                            <td>时长总计</td>
+                            <td th:text="${duration.total}"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fater-layout-foot" th:insert="~{templates/foot.html}"></div>
+
+<div th:insert="~{templates/commjs.html}"></div>
+</body>
+</html>

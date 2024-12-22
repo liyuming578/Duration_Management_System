@@ -16,7 +16,7 @@ Below is an illustration of the `pages` directory, where each left-side menu opt
 
 `templates` contains common parts for pages, including the left-side menu, top navigation bar, and a footer. A single file, such as `head.html`, references key styles and scripts for all pages, allowing consistent updates through a central location. When logging in, the user interface is primarily managed by `login.html`, and its functionality is supported by `login.js` within the `js` folder.
 
-![图片12](figure\图片12.png)
+![图片12](figure/图片12.png)
 
 Below is a snippet of code from `login.html`:
 
@@ -189,39 +189,39 @@ The controller layer is responsible for receiving front-end requests, invoking s
 
 #### Main Interface
 
-![图片1](figure\图片1.png)
+![图片1](figure/图片1.png)
 
 The Duration Management System interface provides the following options:
 
 **1. Major Information Management**
 
-![图片5](figure\图片5.png)
+![图片5](figure/图片5.png)
 
 **2. System User Management**
 
-![图片7](figure\图片7.png)
+![图片7](figure/图片7.png)
 
 **3. Student Information Management**
 
-![图片8](figure\图片8.png)
+![图片8](figure/图片8.png)
 
 **4. Duration Record Management**
 
-![图片9](figure\图片9.png)
+![图片9](figure/图片9.png)
 
 #### Details are illustrated using the Major Information Management module as an example, due to similarity in functionality across other modules.
 
 **Data Query**
 
-![图片2](figure\图片2.png)
+![图片2](figure/图片2.png)
 
 **Data Deletion**
 
-![图片3](figure\图片3.png)
+![图片3](figure/图片3.png)
 
 **Data Modification**
 
-![图片4](figure\图片4.png)
+![图片4](figure/图片4.png)
 
 ### Alpha Release Notes
 
